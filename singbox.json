@@ -86,6 +86,26 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
+      "server": "192.0.2.1",
+      "server_port": 443,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?fake=1",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+      }
+    },
+    {
       "type": "direct",
       "tag": "DIRECT"
     },
@@ -114,215 +134,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-      "server": "172.67.64.86",
-      "server_port": 2096,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-      "server": "8.39.125.92",
-      "server_port": 2053,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-      "server": "198.41.209.133",
-      "server_port": 2096,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-      "server": "8.35.211.54",
-      "server_port": 8443,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-      "server": "172.66.1.183",
-      "server_port": 443,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-      "server": "91.193.59.85",
-      "server_port": 443,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-      "server": "91.193.59.3",
-      "server_port": 2053,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-      "server": "8.35.211.247",
-      "server_port": 8443,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-      "server": "104.17.218.247",
-      "server_port": 2087,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-      "server": "108.162.198.39",
+      "tag": "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+      "server": "172.67.75.116",
       "server_port": 2083,
       "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
       "transport": {
@@ -344,100 +157,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-      "server": "162.159.46.96",
-      "server_port": 2087,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-      "server": "104.17.109.47",
-      "server_port": 2053,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-      "server": "172.66.3.9",
-      "server_port": 2096,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-      "server": "104.17.147.113",
-      "server_port": 2087,
-      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-      "server": "104.16.157.27",
+      "tag": "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+      "server": "104.17.61.143",
       "server_port": 2083,
       "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
       "transport": {
@@ -459,8 +180,307 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]",
-      "server": "188.164.248.124",
+      "tag": "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+      "server": "104.16.252.124",
+      "server_port": 2083,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+      "server": "104.19.49.7",
+      "server_port": 8443,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+      "server": "104.18.33.52",
+      "server_port": 2053,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+      "server": "104.19.35.51",
+      "server_port": 8443,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+      "server": "104.18.33.210",
+      "server_port": 443,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+      "server": "104.19.55.49",
+      "server_port": 8443,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+      "server": "162.159.35.103",
+      "server_port": 2096,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+      "server": "104.17.127.155",
+      "server_port": 2083,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+      "server": "104.17.173.13",
+      "server_port": 2087,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+      "server": "104.17.146.96",
+      "server_port": 2096,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+      "server": "198.41.209.223",
+      "server_port": 2087,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+      "server": "8.35.211.137",
+      "server_port": 2053,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+      "server": "104.16.251.84",
+      "server_port": 2053,
+      "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-wave-e254.nova-3d710e.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-wave-e254.nova-3d710e.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]",
+      "server": "198.41.208.138",
       "server_port": 8443,
       "uuid": "e09eb620-cfc1-4e8b-8ed9-37cc70f86145",
       "transport": {
@@ -485,27 +505,28 @@
       "tag": "🚀 节点选择",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ]
     },
     {
@@ -513,22 +534,22 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -539,22 +560,22 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ]
     },
     {
@@ -562,22 +583,22 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ]
     },
     {
@@ -585,6 +606,7 @@
       "tag": "🎯 全球直连",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "🚀 节点选择",
         "♻️ 自动选择"
@@ -595,6 +617,7 @@
       "tag": "🛑 全球拦截",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "REJECT",
         "DIRECT"
       ]
@@ -604,28 +627,29 @@
       "tag": "🐟 漏网之鱼",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ]
     },
     {
@@ -633,6 +657,7 @@
       "tag": "☁️ CloudFlareCDN",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🐟 漏网之鱼",
         "🚀 节点选择",
         "🎯 全球直连",
@@ -640,22 +665,22 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ]
     },
     {
@@ -663,24 +688,25 @@
       "tag": "GLOBAL",
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "سرویس رایگان نوا nova-pixel-wave-e254.nova-3d710e.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 172.67.64.86:2096 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.92:2053 [VLESS]",
-        "سرویس رایگان نوا 198.41.209.133:2096 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.54:8443 [VLESS]",
-        "سرویس رایگان نوا 172.66.1.183:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.85:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.3:2053 [VLESS]",
-        "سرویس رایگان نوا 8.35.211.247:8443 [VLESS]",
-        "سرویس رایگان نوا 104.17.218.247:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.39:2083 [VLESS]",
-        "سرویس رایگان نوا 162.159.46.96:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.109.47:2053 [VLESS]",
-        "سرویس رایگان نوا 172.66.3.9:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.113:2087 [VLESS]",
-        "سرویس رایگان نوا 104.16.157.27:2083 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.124:8443 [VLESS]"
+        "سرویس رایگان نوا 172.67.75.116:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.61.143:2083 [VLESS]",
+        "سرویس رایگان نوا 104.16.252.124:2083 [VLESS]",
+        "سرویس رایگان نوا 104.19.49.7:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.52:2053 [VLESS]",
+        "سرویس رایگان نوا 104.19.35.51:8443 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.210:443 [VLESS]",
+        "سرویس رایگان نوا 104.19.55.49:8443 [VLESS]",
+        "سرویس رایگان نوا 162.159.35.103:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.127.155:2083 [VLESS]",
+        "سرویس رایگان نوا 104.17.173.13:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.146.96:2096 [VLESS]",
+        "سرویس رایگان نوا 198.41.209.223:2087 [VLESS]",
+        "سرویس رایگان نوا 8.35.211.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.16.251.84:2053 [VLESS]",
+        "سرویس رایگان نوا 198.41.208.138:8443 [VLESS]"
       ]
     },
     {
@@ -690,6 +716,24 @@
   ],
   "route": {
     "rules": [
+      {
+        "outbound": "block",
+        "rule_set": [
+          "geosite-category-phishing"
+        ]
+      },
+      {
+        "outbound": "block",
+        "rule_set": [
+          "geosite-category-malware"
+        ]
+      },
+      {
+        "outbound": "direct",
+        "domain_suffix": [
+          ".ir"
+        ]
+      },
       {
         "inbound": "tun-in",
         "action": "sniff"
@@ -8956,6 +9000,18 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-category-malware",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-malware.srs"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-category-phishing",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-phishing.srs"
       },
       {
         "tag": "geosite-category-ads-all",
